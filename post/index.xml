@@ -14,8 +14,8 @@
       
       <guid>https://JialiangTan.github.io/vscodetutorial/post/installation/</guid>
       <description>In this tutorial, we will walk you through the installation of Visual Studio Code.
-Step 1. Download Visual Studio Code Goto VS Code releases and download the appropriate version for your os and archietecture.
- Download Windows if your os is Windows 8, 10, 11 Download Mac if your os is macOX 10.11+  Step 2: Launch Visual Studio Code Once the download is complete, let it install the Visual Studio Code on your computer.</description>
+Step 1. Install Visual Studio Code Goto VS Code releases, download the appropriate version for your os and archietecture.
+ Download Windows if your os is Windows 8, 10, 11 Download Mac if your os is macOX 10.11+  Open the installer you just download, it will install Visual Studio Code for you by default. After installation finish, you will find the VS Code Application on your Desktop/Lauchpad.</description>
     </item>
     
     <item>
@@ -39,6 +39,17 @@ We can check it via terminal. First, on your VS Code, click Terminal &amp;gt; Ne
 Step 1: Install the Python Extension Let&amp;rsquo;s open VS Code.
 First, you click the Extension button on the left menu to open the Visual Studio Marketplace.
 In the Marketplace, search Python.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 4: Remote Development using SSH</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/remote/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/remote/</guid>
+      <description>Visual Studio Code allows you to open a remote folder on any remote machine, virtual machine with a running SSH server.
+As a NC State student, you have access to log into XXX!!! cluster and code on it. Once connected to a sever, you can interact with files and folders anywhere on the remote filesystem.
+Also, XXX!!! cluster already has Python installed, there is no need to install Python yourselves on remote machine.</description>
     </item>
     
   </channel>

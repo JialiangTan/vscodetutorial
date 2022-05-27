@@ -25,24 +25,6 @@
     </item>
     
     <item>
-      <title>go</title>
-      <link>https://JialiangTan.github.io/vscodetutorial/tags/go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://JialiangTan.github.io/vscodetutorial/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://JialiangTan.github.io/vscodetutorial/tags/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://JialiangTan.github.io/vscodetutorial/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>highlight-js</title>
       <link>https://JialiangTan.github.io/vscodetutorial/tags/highlight-js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,11 +43,11 @@
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://JialiangTan.github.io/vscodetutorial/tags/hugo/</link>
+      <title>import modules</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/tags/import-modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://JialiangTan.github.io/vscodetutorial/tags/hugo/</guid>
+      <guid>https://JialiangTan.github.io/vscodetutorial/tags/import-modules/</guid>
       <description></description>
     </item>
     
@@ -75,6 +57,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://JialiangTan.github.io/vscodetutorial/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>print function</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/tags/print-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/tags/print-function/</guid>
       <description></description>
     </item>
     
