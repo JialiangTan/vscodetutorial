@@ -20,21 +20,21 @@ Step 1. Install Visual Studio Code Goto VS Code releases, download the appropria
     
     <item>
       <title>Tutorial 2: Download and Install Python</title>
-      <link>https://JialiangTan.github.io/vscodetutorial/post/python/</link>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/pythoninstall/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://JialiangTan.github.io/vscodetutorial/post/python/</guid>
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/pythoninstall/</guid>
       <description>In this tutorial, you will learn how to download and install Python.
 Step 1: Check Python First step we need to check if Python is already installed on your laptop. If you are working on a cluster, skip this step, we have taken care of everything.
 We can check it via terminal. First, on your VS Code, click Terminal &amp;gt; New Terminal from top menu to open a new terminal: Below red box is the new terminal we just opened.</description>
     </item>
     
     <item>
-      <title>Tutorial 3: Python Hello World</title>
-      <link>https://JialiangTan.github.io/vscodetutorial/post/pythonhelloworld/</link>
+      <title>Tutorial 3: Set up Python Environment</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/pythonenv/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://JialiangTan.github.io/vscodetutorial/post/pythonhelloworld/</guid>
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/pythonenv/</guid>
       <description>In this tutorial, you will use Python 3 to create a simple Python &amp;ldquo;Hello World&amp;rdquo; program in Visual Studio Code. The Microsoft Python extension will be introduced, through using the Python extension, you make VS Code into a great lightweight Python IDE.
 Step 1: Install the Python Extension Let&amp;rsquo;s open VS Code.
 First, you click the Extension button on the left menu to open the Visual Studio Marketplace.
@@ -42,7 +42,29 @@ In the Marketplace, search Python.</description>
     </item>
     
     <item>
-      <title>Tutorial 4: Remote Development using SSH</title>
+      <title>Tutorial 4: Run Python Hello World</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/pythonhelloworld/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/pythonhelloworld/</guid>
+      <description>Step 1: Create Python Hello World Source Code File Remember the step 4 in Tutorial 1, how we open a folder. By starting VS Code in a folder, that folder becomes your workspace.
+Here we create a new foler under Desktop: We name the folder as hello and open it (the hello folder is your workplace): Then we select New File button create a new file in hello folder, name it hello.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 5: Jupyter Notebooks on VS Code</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/jupyter/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/jupyter/</guid>
+      <description>Jupyter Notebooks is an open-source project that combines Markdown text and executable Python source code on one canvas.
+In Tutorial 3 we lhave earn how to set up Python enviroment. Once the appropriate environment is activated, we can create and open a Jupyter Notebook.
+Step 1: Install Jupyter Notebook Extension Search Jupyter in extension marketplace:
+Make sure it is developed by Microsoft, install it. Step 2: Create or Open a Jupyter Notebook Open the Command Palete in top menu View &amp;gt; Command Palette:</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 6: Remote Development using SSH</title>
       <link>https://JialiangTan.github.io/vscodetutorial/post/remote/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       

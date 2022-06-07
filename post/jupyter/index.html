@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tutorial 6: Remote Development using SSH</title>
+        <title>Tutorial 5: Jupyter Notebooks on VS Code</title>
         
         <style>
 
@@ -85,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Tutorial 6: Remote Development using SSH</a>
+                    <a class="navbar-brand visible-xs" href="#">Tutorial 5: Jupyter Notebooks on VS Code</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -125,23 +125,50 @@
 <main>
 
     <div>
-        <h2>Tutorial 6: Remote Development using SSH</h2>
+        <h2>Tutorial 5: Jupyter Notebooks on VS Code</h2>
         <h5>May 20, 2022</h5>
         
 
     </div>
 
-    <div align="start" class="content"><p>Visual Studio Code allows you to open a remote folder on any remote machine, virtual machine with a running SSH server.</p>
-<p>As a NC State student, you have access to log into XXX!!! cluster and code on it. Once connected to a sever, you can interact with files and folders anywhere on the remote filesystem.</p>
-<p>Also, XXX!!! cluster already has Python installed, there is no need to install Python yourselves on remote machine.</p>
-<h2 id="step-1-install-the-remote---ssh-extension">Step 1: Install the Remote - SSH extension</h2>
-<p>Let&rsquo;s open the VS Code.</p>
-<p>Click the <code>Extension</code> button on the left menu to open the Visual Studio Marketplace.</p>
-<p>In the Marketplace, search <code>remote</code>.</p>
-<p>Choose the Remote - SSH extension developed by Micosoft.</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/remote/remote1.png" alt="remote1"></p>
-<p>Install it, and you will find the extension is installed and enabled.
-<img src="https://JialiangTan.github.io/vscodetutorial/images/remote/remote2.png" alt="remote2"></p>
+    <div align="start" class="content"><p><a href="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html">Jupyter Notebooks</a> is an open-source project that combines Markdown text and executable Python source code on one canvas.</p>
+<p>In Tutorial 3 we lhave earn how to set up Python enviroment. Once the appropriate environment is activated, we can create and open a Jupyter Notebook.</p>
+<h2 id="step-1-install-jupyter-notebook-extension">Step 1: Install Jupyter Notebook Extension</h2>
+<p>Search <code>Jupyter</code> in extension marketplace:</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/jupyter1.png" alt="jupyter1"></p>
+<p>Make sure it is developed by Microsoft, install it.
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/jupyter2.png" alt="jupyter2"></p>
+<h2 id="step-2-create-or-open-a-jupyter-notebook">Step 2: Create or Open a Jupyter Notebook</h2>
+<p>Open the <code>Command Palete</code> in top menu <code>View &gt; Command Palette</code>:</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/open1.png" alt="open"></p>
+<p>Then search <code>Jupyter: Create New Jupyter Notebook</code> from Command Palette:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/open2.png" alt="open"></p>
+<p>Or click <code>New File</code> then choose Jupyter Notebook <code>.ipynb</code>:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/new.png" alt="new1"></p>
+<p>On the created Jupyter Notebook, click <code>Seletc kernel</code> in the top right to select an environment:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/new2.png" alt="new2"></p>
+<p>Here we choose <code>Python 3.10.4</code>:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/new3.png" alt="new3"></p>
+<p>If you have an existing Jupyter Notebbok file, you can open it by <code>right-clicking</code> on the file and open with VS Code.</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/rightclick.png" alt="rightclick"></p>
+<p><a href="https://drive.google.com/file/d/11DtYWGurYyCwkRyktp2BSAn2ju22oeBZ/view?usp=sharing">CLICK HERE</a> is the link to Jupyter Notebook file <code>hello.ipynb</code>, you can download and try to open it.</p>
+<h2 id="step-3-run-single-code-cell">Step 3: Run single code cell</h2>
+<p>Once you have a Notebook, you can run a code cell by clicking the <code>Run</code> icon to the left of the cell.</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/cell1.png" alt="cell">
+The output will appear directly below the code cell:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/cell2.png" alt="cell"></p>
+<p>It may ask you to install the <code>ipykernel package</code> of your Python version, just click install, it will automatically install for you. Once the installation finished, you can run the cell by clicking <code>Run</code> icon.
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/cell3.png" alt="cell"></p>
+<h2 id="step-4-add-additional-code-cells">Step 4: Add additional code cells</h2>
+<p>Code cells can be added to a Notebook using the main toolbar, a cell&rsquo;s add cell toolbar (visible with hover):
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/add1.png" alt="add"></p>
+<p>Click any <code>+ Code</code> will add a new cell directly below the current selected cell.
+<img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/add2.png" alt="add"></p>
+<h2 id="step-5-run-multiple-code-cells">Step 5: Run multiple code cells:</h2>
+<p>We can all code cells together by clicking <code>Run All</code>:</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/multiple1.png" alt="all"></p>
+<p>Then results of each cell will be displayed under the cells:</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/jupyter/multiple2.png" alt="all"></p>
 </div>
 
     
