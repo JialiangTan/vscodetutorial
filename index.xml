@@ -100,14 +100,12 @@ Make sure it is developed by Microsoft, install it. Step 2: Create or Open a Jup
     </item>
     
     <item>
-      <title>Tutorial 6: Remote Development using SSH</title>
+      <title></title>
       <link>https://JialiangTan.github.io/vscodetutorial/post/remote/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://JialiangTan.github.io/vscodetutorial/post/remote/</guid>
-      <description>Visual Studio Code allows you to open a remote folder on any remote machine, virtual machine with a running SSH server.
-As a NC State student, you have access to log into XXX!!! cluster and code on it. Once connected to a sever, you can interact with files and folders anywhere on the remote filesystem.
-Also, XXX!!! cluster already has Python installed, there is no need to install Python yourselves on remote machine.</description>
+      <description></description>
     </item>
     
     <item>
@@ -116,7 +114,9 @@ Also, XXX!!! cluster already has Python installed, there is no need to install P
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://JialiangTan.github.io/vscodetutorial/about/</guid>
-      <description>Visual Studio Code is a lightweight code editor. The Visual Studio Code is often called as VS Code. It combines the simplicity of a source code editor with powerful developer tooling. VS Code supports macOS, Linux, and Windows, so you can easily install and use wherever you want. On VS Code, you can customize every feature to your liking and install any number of third-party extensions. While most scenarios work &amp;ldquo;out of the box&amp;rdquo; with no configuration, VS Code grows with you, and we encourage you to optimize your experience to suit your unique needs.</description>
+      <description>Visual Studio Code is a lightweight code editor. The Visual Studio Code is often called as VS Code. It combines the simplicity of a source code editor with powerful developer tooling.
+VS Code supports macOS, Linux, and Windows, so you can easily install and use wherever you want.
+On VS Code, you can customize every feature to your liking and install any number of third-party extensions. While most scenarios work &amp;ldquo;out of the box&amp;rdquo; with no configuration, VS Code grows with you, and we encourage you to optimize your experience to suit your unique needs.</description>
     </item>
     
   </channel>
