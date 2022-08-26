@@ -1,1 +1,2 @@
 # vscodetutorial
+root: /Desktop/mininal
