@@ -95,8 +95,8 @@ Make sure it is developed by Microsoft, install it. Step 2: Create or Open a Jup
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://JialiangTan.github.io/vscodetutorial/about/</guid>
-      <description>Visual Studio Code is a lightweight code editor. The Visual Studio Code is often called as VS Code. It combines the simplicity of a source code editor with powerful developer tooling.
-VS Code supports macOS, Linux, and Windows, so you can easily install and use wherever you want.
+      <description>Visual Studio (VS) Code is a lightweight code editor. It combines the simplicity of a source code editor with powerful developer tooling.
+VS Code supports macOS, Linux, and Windows, so you can install and use it wherever you want.
 On VS Code, you can customize every feature to your liking and install any number of third-party extensions. While most scenarios work &amp;ldquo;out of the box&amp;rdquo; with no configuration, VS Code grows with you, and we encourage you to optimize your experience to suit your unique needs.</description>
     </item>
     
