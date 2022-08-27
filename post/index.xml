@@ -19,26 +19,52 @@ Step 1. Install Visual Studio Code Goto VS Code releases, download the appropria
     </item>
     
     <item>
-      <title>Tutorial 2: Download and Install Python</title>
+      <title>Tutorial 2: Download and Install Python (macOS)</title>
       <link>https://JialiangTan.github.io/vscodetutorial/post/pythoninstall/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://JialiangTan.github.io/vscodetutorial/post/pythoninstall/</guid>
-      <description>In this tutorial, you will learn how to download and install Python.
+      <description>In this tutorial, you will learn how to download and install Python on macOS.
 Step 1: Check Python First step we need to check if Python is already installed on your laptop. If you are working on a cluster, skip this step, we have taken care of everything.
 We can check it via terminal. First, on your VS Code, click Terminal &amp;gt; New Terminal from top menu to open a new terminal: Below red box is the new terminal we just opened.</description>
     </item>
     
     <item>
-      <title>Tutorial 3: Set up Python Environment</title>
+      <title>Tutorial 2: Download and Install Python (Windows)</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/installwindows/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/installwindows/</guid>
+      <description>In this tutorial, you will learn how to download and install Python on Windows.
+Step 1: Download Python Quick Link: click HERE to download Python 3.10.5 for Windows(64-bit)
+Or, visit Python Homepage python.org, Downloads &amp;gt; Windows to visit the download page for Windows: Step 2: Install Python Launch python-3.10.5-amd64.exe that you just downloaded in Step 1.
+Click Next to start installation: Until the last step: When the installation is done, it will lauch VS Code automatically.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 3: Set up Python Environment (macOS)</title>
       <link>https://JialiangTan.github.io/vscodetutorial/post/pythonenv/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://JialiangTan.github.io/vscodetutorial/post/pythonenv/</guid>
-      <description>In this tutorial, you will use Python 3 to create a simple Python &amp;ldquo;Hello World&amp;rdquo; program in Visual Studio Code. The Microsoft Python extension will be introduced, through using the Python extension, you make VS Code into a great lightweight Python IDE.
+      <description>In this tutorial, you will set up a Python environment in Visual Studio Code. The Microsoft Python extension will be introduced, through using the Python extension, you make VS Code into a great lightweight Python IDE.
 Step 1: Install the Python Extension Let&amp;rsquo;s open VS Code.
 First, you click the Extension button on the left menu to open the Visual Studio Marketplace.
-In the Marketplace, search Python.</description>
+In the Marketplace, search Python.
+You will see tons of Python-related extensions, here we want to install the one developed by Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 3: Set up Python Environment (Windows)</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/envwindows/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/envwindows/</guid>
+      <description>In this tutorial, you will set up a Python environment in Visual Studio Code. The Microsoft Python extension will be introduced, through using the Python extension, you make VS Code into a great lightweight Python IDE.
+Step 1: Install the Python Extension Let&amp;rsquo;s open VS Code.
+First, you click the Extension button on the left menu to open the Visual Studio Marketplace.
+In the Marketplace, search Python.
+You will see tons of Python-related extensions, here we want to install the one developed by Microsoft.</description>
     </item>
     
     <item>
@@ -61,15 +87,6 @@ Here we create a new foler under Desktop: We name the folder as hello and open i
 In Tutorial 3 we lhave earn how to set up Python enviroment. Once the appropriate environment is activated, we can create and open a Jupyter Notebook.
 Step 1: Install Jupyter Notebook Extension Search Jupyter in extension marketplace:
 Make sure it is developed by Microsoft, install it. Step 2: Create or Open a Jupyter Notebook Open the Command Palete in top menu View &amp;gt; Command Palette:</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://JialiangTan.github.io/vscodetutorial/post/remote/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://JialiangTan.github.io/vscodetutorial/post/remote/</guid>
-      <description></description>
     </item>
     
   </channel>

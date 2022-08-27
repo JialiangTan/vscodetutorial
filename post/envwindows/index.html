@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tutorial 1: Getting Started with Visual Studio Code</title>
+        <title>Tutorial 3: Set up Python Environment (Windows)</title>
         
         <style>
 
@@ -85,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Tutorial 1: Getting Started with Visual Studio Code</a>
+                    <a class="navbar-brand visible-xs" href="#">Tutorial 3: Set up Python Environment (Windows)</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -119,41 +119,41 @@
 <main>
 
     <div>
-        <h2>Tutorial 1: Getting Started with Visual Studio Code</h2>
+        <h2>Tutorial 3: Set up Python Environment (Windows)</h2>
         <h5>May 20, 2022</h5>
         
 
     </div>
 
-    <div align="start" class="content"><p>In this tutorial, we will walk you through the installation of Visual Studio Code.</p>
-<h2 id="step-1-install-visual-studio-code">Step 1. Install Visual Studio Code</h2>
-<p>Goto <a href="https://code.visualstudio.com/download">VS Code releases</a>, download the appropriate version for your os and archietecture.</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/download.png" alt="Download"></p>
-<ol>
-<li>Download <code>Windows</code> if your os is Windows 8, 10, 11</li>
-<li>Download <code>Mac</code> if your os is macOX 10.11+</li>
-</ol>
-<p>Open the installer you just download, it will install Visual Studio Code for you by default. After installation finish, you will find the VS Code Application on your Desktop/Lauchpad.</p>
-<h2 id="step-2-launch-visual-studio-code">Step 2: Launch Visual Studio Code</h2>
-<p>Once the download is complete, let it install the Visual Studio Code on your computer. After it is installed, let&rsquo;s launch the Visual Studio Code.</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/welcome.png" alt="WelcomePage"></p>
+    <div align="start" class="content"><p>In this tutorial, you will set up a Python environment in Visual Studio Code. The <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Microsoft Python extension</a> will be introduced, through using the Python extension, you make VS Code into a great lightweight Python IDE.</p>
+<h3 id="step-1-install-the-python-extension">Step 1: Install the Python Extension</h3>
+<p>Let&rsquo;s open VS Code.</p>
+<p>First, you click the <code>Extension</code> button on the left menu to open the Visual Studio Marketplace.</p>
+<p>In the Marketplace, search <code>Python</code>.</p>
+<p>You will see tons of Python-related extensions, here we want to install the one developed by Microsoft.</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/windows/extension1.png" alt="extension1"></p>
+<p>Once you find the Python Extension by Microsoft, click <code>install</code> button to install. Then VS Code will install for you.
+<img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/extension2.png" alt="extension1"></p>
+<p>When the installation finished, the extension is automatically enabled on your Visual Studio Code workspace.
+<img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/extension3.png" alt="extension1"></p>
 <!-- raw HTML omitted -->
-<h3 id="step-3-open-a-new-file">Step 3: Open A New File</h3>
-<p>If we want to start with a new file, click the <code>Explorer</code> button the left-hand side then click <code>New file</code></p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/newfile.png" alt="Newfile"></p>
-<p>Then Visual Studio Code will open a new file where you edit with:</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/newfile2.png" alt="Newfile2"></p>
-<p>The new file is labelled as untitled, which means the file is not named yet.</p>
-<p>To save the file, you can either save it from the top-level menu with <code>File &gt; Save</code> (as shown in below figure), or by pressing <code>command + s</code></p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/save.png" alt="Newfile2"></p>
-<h3 id="step-4-open-a-folder">Step 4: Open A Folder</h3>
-<p>Visual Studio Code works with folder rather than project.</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/folder.png" alt="Folder"></p>
-<p>You can either choose to open a new folder, or open an existing folder.</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/createnewfolder.png" alt="Folder"></p>
-<p>If you open a new folder, there will be nothing there in the created folder. Then you may want to open a new file like step 3.</p>
-<p>Here we choose to open an existing folder named <code>python_practice</code>. By choose python_practice and click open, Visual Studio Code opens the whole folder, all python files in python_practice are listed in below red box, then you can click the file and open it.</p>
-<p><img src="https://JialiangTan.github.io/vscodetutorial/images/installation/folder2.png" alt="Folder"></p>
+<!-- raw HTML omitted -->
+<h2 id="step-2-select-a-python-interpreter">Step 2: Select a Python interpreter</h2>
+<p>Python is an interpreted language, in order to run Python code you must tell VS Code which interpreter to use.</p>
+<p>First we open the Command Palette, from top-menu click <code>View &gt; Command</code> Palette:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/interpreter1.png" alt="interpreter"></p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/interpreter2.png" alt="interpreter"></p>
+<p>In Command Palette, type <code>Python: Select Interpreter</code> to search, then select the command:
+<img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/interpreter3.png" alt="interpreter"></p>
+<p>The <code>Python: Select Interpreter</code> command presents a list of available Python version that VS Code can find antomatically, including virtual environments (we will talk about virtual environment in later tutorials).</p>
+<p>The red box below shows all the Python interpreters VS Code find on my laptop.</p>
+<p>As you can see, I have plenty of Python interpreters installed, including Python 2, some older Python 3.8.x, and the latest Python 3.10.4 that we have installed in Tutorial 2.</p>
+<p>By clicking <code>Python 3.10.4.64-bit</code>, we select Python 3.10.4 as the Python interpreter will be used by the Python extension.</p>
+<p><img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/interpreter4.png" alt="interpreter"></p>
+<p>!!! Note: If you open a workspace (folder) then select Python interpreter, the Python interpreter you selected will be used for that workspace (folder).</p>
+<p>What we have done above, selecting without a workspace (folder) open, we sets Python 3.10.4 in Use scope, which means the default interpreter for VS Code in general.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 </div>
 
     
