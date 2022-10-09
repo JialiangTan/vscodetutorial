@@ -138,32 +138,33 @@ You will see the <code>ModuleNotFoundError</code> message (unless you have previ
 <p><img src="https://JialiangTan.github.io/vscodetutorial/images/packages/moduleerror.png" alt="package">
 Such message indicates that the <code>matplotlib</code> package is not available in your system.</p>
 <h2 id="install-matplotlib-and-numpy">Install Matplotlib and Numpy</h2>
-<p>To install the <code>matplotlib</code> package (which also installs <code>numpy</code> as a dependency), stop the debugger and open terminal (<code>Terminal: New Terminal</code>).</p>
-<h4 id="1-make-sure-you-are-using-the-correct-python3">1. Make sure you are using the correct python3:</h4>
-<p>Check your python3 version in terminal by typing the following command:</p>
+<p>To install the <code>matplotlib</code> package (which also installs <code>numpy</code> as a dependency), stop the debugger and open terminal (<code>Terminal -&gt; New Terminal</code>).</p>
+<h4 id="1-make-sure-you-are-using-the-correct-python3">1. Make sure you are using the correct Python3:</h4>
+<p>In terminal, check your current Python3 path by typing the following command:</p>
 <pre tabindex="0"><code>$ which python3
-</code></pre><p>The path of the Python you are using will pop out on your terminal, in my case, the python path in current workspace is <code>/usr/local/bin/python3</code>:
+</code></pre><p>The current valid Python3 path will pop out on your terminal. In my case, the Python3 path in current workspace is <code>/usr/local/bin/python3</code>:
 <img src="https://JialiangTan.github.io/vscodetutorial/images/packages/which.png" alt="package"></p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Remember how we select Python interpreter in Tutorial 3: <code>View -&gt; Command Palette -&gt; Python: Select Interpreter</code>:</p>
 <p><img src="https://JialiangTan.github.io/vscodetutorial/images/pythonhelloworld/interpreter4.png" alt="interpreter"></p>
 <p>Make sure the path of selected Python is the same as the path printed in your terminal.</p>
-<p>For example, I have selected <code>Python 3.10.4</code> from Command Palette we can see the path of Python 3.10.4 is <code>/usr/local/bin/python3</code>, which is consistent with the path printed on my terminal.</p>
-<h4 id="2-install-the-packages">2. Install the packages</h4>
-<p>In your terminal, type following command to install <code>matplotlib</code>:</p>
+<p>For example, I have selected <code>Python 3.10.4</code> from my Command Palette, and we can see the path of Python 3.10.4 is <code>/usr/local/bin/python3</code>, which is consistent with the path printed on my terminal.</p>
+<p>If paths are inconsitent, you may want to <code>Select Python Interpreter</code> again (see Tutorial 3 for more details).</p>
+<h4 id="2-install-the-package">2. Install the package</h4>
+<p>In your terminal, type the following command to install <code>matplotlib</code>:</p>
 <pre tabindex="0"><code>python3 -m pip install matplotlib
-</code></pre><p>If installed correct, you should see the message: <code>Successfully installed matplotlib-3.x.x</code>.</p>
+</code></pre><p>Upon installation, you should see the message: <code>Successfully installed matplotlib-3.x.x</code>.</p>
 <h4 id="3-rerun-the-program">3. Rerun the program</h4>
-<p>Rerun the <code>plot.py</code> now, after a few moments a plot window appears with the output:</p>
+<p>Rerun the <code>plot.py</code> now, after a few seconds a plot window appears with the output:</p>
 <p><img src="https://JialiangTan.github.io/vscodetutorial/images/packages/plot.png" alt="package"></p>
 <p>The appearance of the plot results indicates that you&rsquo;ve succesfully install the <code>matlpotlib</code> and <code>numpy</code> packages!</p>
 <h2 id="install-scipy">Install SciPy</h2>
-<p>Similarly, type following command to install <code>scipy</code> in your terminal:</p>
+<p>Similarly, type the following command to install <code>scipy</code> in your terminal:</p>
 <pre tabindex="0"><code>python3 -m pip install scipy
-</code></pre><p><img src="https://JialiangTan.github.io/vscodetutorial/images/packages/scipy.png" alt="package"></p>
-<p>You should see above message upon a successful installation.</p>
-<p>The <code>pip</code> command:</p>
+</code></pre><p>And you will see the message: <code>Successfully installed scipy-1.9.x</code>, upon the successful installation.
+<img src="https://JialiangTan.github.io/vscodetutorial/images/packages/scipy.png" alt="package"></p>
+<p>!!!Note: the <code>pip</code> command:</p>
 <pre tabindex="0"><code>python3 -m pip install &#34;ThePackageName&#34;
 </code></pre><p>Can be used to install packages from PyPI, check <a href="https://pypi.org/">PyPI website</a> for more interesting package/software developed and shared by the Python community.</p>
 </div>
