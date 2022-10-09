@@ -89,5 +89,16 @@ Step 1: Install Jupyter Notebook Extension Search Jupyter in extension marketpla
 Make sure it is developed by Microsoft, install it. Step 2: Create or Open a Jupyter Notebook Open the Command Palete in top menu View &amp;gt; Command Palette:</description>
     </item>
     
+    <item>
+      <title>Tutorial 6: Install and Use Packages</title>
+      <link>https://JialiangTan.github.io/vscodetutorial/post/packageinstall/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://JialiangTan.github.io/vscodetutorial/post/packageinstall/</guid>
+      <description>In Python, packages are how you obtain any number of useful code libraries, typically from the Python Package Index (PyPI). Here we show an example that&amp;rsquo;s a little more complicated, where you use the matplotlib and numpy packages to create a graphical plot as is commonly done with data science.
+First, let&amp;rsquo;s create a new file called plot.py, and paste in the following source code:
+import matplotlib.pyplot as plt import numpy as np x = np.</description>
+    </item>
+    
   </channel>
 </rss>
