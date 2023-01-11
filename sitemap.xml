@@ -2,40 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/installation/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/pythoninstall/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/installwindows/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/pythonenv/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/envwindows/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/pythonhelloworld/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/jupyter/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/post/packageinstall/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://JialiangTan.github.io/vscodetutorial/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://JialiangTan.github.io/vscodetutorial/about/</loc>
   </url><url>
     <loc>https://JialiangTan.github.io/vscodetutorial/categories/</loc>
   </url><url>
     <loc>https://JialiangTan.github.io/vscodetutorial/tags/</loc>
+  </url><url>
+    <loc>https://JialiangTan.github.io/vscodetutorial/</loc>
   </url>
 </urlset>
